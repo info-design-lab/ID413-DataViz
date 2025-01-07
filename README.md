@@ -1,4 +1,4 @@
-ID413-Information Graphics and Data Visualization
+ID413-Information Graphics and Data Visualization (old)
 =========
 
 Repository for the course material of ID 413 - M - Information Graphics and Data Visualization at IDC, IIT Bombay
