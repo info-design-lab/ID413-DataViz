@@ -4,7 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>ID 413 - Information Graphics and Data Visualization</title>
+    <style>
+        .table-container {
+            overflow-x: auto;
+        }
 
+        .table-container table {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 600px) {
+            .table-container table {
+                width: auto;
+            }
+        }
+     </style>
     <!-- Use / before urls to access the main repo files, like stylesheets and js. -->
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
@@ -89,7 +103,7 @@
       <a id="schedule" class="anchor" href="#schedule" aria-hidden="true"><span class="octicon octicon-link"></span></a>
       <h3>Schedule</h3>
         
-<div style='overflow-x:auto' style ='width:1400px'>
+<div class="table-container">
     <table style="width: 1400px">
       <tr>
         <th style="width: 100px">Week</th><th style="width: 300px">Content</th><th style="width: 300px">Assignment</th><th style="width: 700px">Additional Readings/Resources</th>
